@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc1c1</color>
+    <color name="colorPrimaryDark">#eeb4b4</color>
+    <color name="colorAccent">#662475</color>
+    <color name="colorGriMy">#323542</color>
+    <color name="colorYellowButton">#ffff</color>
+    <color name="aktif">#26F13F</color>
+    <color name="pasif">#EC5555</color>
+    <color name="colormasabutton">#bc8f8f</color>
+    <color name="colorItmBg">#B36060</color>
+</resources>

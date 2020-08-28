@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IkiTarih">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rlyt"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/cksbtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="?attr/actionModeCloseDrawable">
+        </Button>
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="İki Tarih Arasında Rapor"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/texttrhal1"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="İlk Tarihi Seç"
+                        android:inputType="date" />
+
+                    <EditText
+                        android:id="@+id/texttrhal2"
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:ems="10"
+                        android:hint="Son Tarihi Seç"
+                        android:inputType="date" />
+
+                    <Button
+                        android:id="@+id/listelebtn"
+                        android:layout_width="108dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@drawable/checkmark"
+                        android:text="Listele"
+                        android:textSize="40px"></Button>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="Start"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="7dp" />
+
+
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/chart1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp">
+
+                </com.github.mikephil.charting.charts.BarChart>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="End"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/txtgelir"
+                        android:layout_width="415dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10px"
+                        android:layout_marginBottom="10dp"
+                        android:text="Toplam Gelir:"
+                        android:textSize="40px"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listsp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

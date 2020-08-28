@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5px"
+    android:gravity="center_vertical"
+
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="99dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sdtylist"
+                android:layout_width="wrap_content"
+                android:layout_height="171dp"
+                android:textSize="40px"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblmasano"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="MASA NO"
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/lbltarih"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="TARİH"
+                android:textSize="40px"></TextView>
+
+            <TextView
+                android:id="@+id/lblsaat"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="SAAT"
+                android:textSize="40px"></TextView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

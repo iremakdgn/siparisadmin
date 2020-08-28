@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.corba.corbam">
+
+    <dist:module dist:instant="true" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:icon="@drawable/food"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/food"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ikitarihGrafik"></activity>
+        <activity android:name=".belliGrafik" />
+        <activity android:name=".menuGuncelle" />
+        <activity android:name=".SifreDegis" />
+        <activity android:name=".menuIslem" />
+        <activity android:name=".masaIslem" />
+        <activity android:name=".adminBildiri" />
+        <activity android:name=".IkiTarih" />
+        <activity android:name=".belliTarih" />
+        <activity android:name=".adminSiparis" />
+        <activity android:name=".girisAdminActivity" />
+        <activity
+            android:name=".menuEkleme"
+            android:parentActivityName=".girisAdminActivity" />
+        <activity
+            android:name=".GirisActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".girisAdminActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="@color/colorPrimary"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@drawable/admin"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="Yönetici"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/nav_sip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_settings_black_24dp"
+            android:text="Siparişler"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_btrh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_insert_chart_black_24dp"
+            android:text="Belli Tarih ile Rapor"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_ikitrh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_insert_chart_black_24dp"
+            android:text="İki Tarih Arasında Rapor"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_bldr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bell"
+            android:text="Bildirimler"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_masais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/table"
+            android:text="Masa İşlem"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_menuis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/menu"
+            android:text="Menü İşlem"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_sfrdgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_settings_black_24dp"
+            android:text="Şifre Değiştir"
+            android:textSize="40px"></Button>
+
+        <Button
+            android:id="@+id/nav_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/cks"
+            android:text="ÇIKIŞ"
+            android:textSize="40px"></Button>
+
+
+    </LinearLayout>
+</LinearLayout>

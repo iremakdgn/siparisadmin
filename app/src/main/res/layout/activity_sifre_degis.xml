@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SifreDegis">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rlyt"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentLeft="true" >
+
+        <Button
+            android:id="@+id/cksbtn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="?attr/actionModeCloseDrawable">
+        </Button>
+
+        <TextView
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Şifre Değiştir"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="16dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffc1c1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="345dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="YÖNETİCİ"
+                        android:textSize="40px"
+                        android:textStyle="bold"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteX="134dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/geskikul"
+                            android:layout_width="265dp"
+                            android:layout_height="wrap_content"
+                            android:text="Kullanıcı Adı:"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints"
+                            tools:layout_editor_absoluteX="71dp"
+                            tools:layout_editor_absoluteY="383dp" />
+
+                        <TextView
+                            android:id="@+id/geskisif"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="Şifre:"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints"
+                            tools:layout_editor_absoluteX="71dp"
+                            tools:layout_editor_absoluteY="424dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="184dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="6dp"
+                    tools:layout_editor_absoluteY="139dp">
+
+                    <LinearLayout
+                        android:layout_width="421dp"
+                        android:layout_height="66dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/akul"
+                            android:layout_width="104dp"
+                            android:layout_height="32dp"
+                            android:text="Kullanıcı Adı"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/akultext"
+                            android:layout_width="276dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text"
+                            android:textColorLink="#B741058D"
+                            tools:ignore="MissingConstraints,UnknownId" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/asifre"
+                            android:layout_width="102dp"
+                            android:layout_height="29dp"
+                            android:text="Şifre"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/asifretext"
+                            android:layout_width="274dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text"
+                            android:textColorLink="#B741058D"
+                            tools:ignore="MissingConstraints,UnknownId" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="213dp"
+                            android:layout_height="38dp"
+                            android:layout_weight="1"
+                            android:background="#CE9FFA"
+                            android:gravity="center_horizontal"
+                            android:text="GÜNCELLE"
+                            android:textColor="#000" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="10dp"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffc1c1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="GARSON"
+                    android:textSize="40px"
+                    android:textStyle="bold"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="134dp"
+                    tools:layout_editor_absoluteY="337dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="344dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/eskikul"
+                            android:layout_width="193dp"
+                            android:layout_height="wrap_content"
+                            android:text="Kullanıcı Adı:"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints"
+                            tools:layout_editor_absoluteX="63dp"
+                            tools:layout_editor_absoluteY="49dp" />
+
+                        <TextView
+                            android:id="@+id/eskisif"
+                            android:layout_width="91dp"
+                            android:layout_height="25dp"
+                            android:text="Şifre"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints"
+                            tools:layout_editor_absoluteX="63dp"
+                            tools:layout_editor_absoluteY="90dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="184dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="6dp"
+                    tools:layout_editor_absoluteY="139dp">
+
+                    <LinearLayout
+                        android:layout_width="421dp"
+                        android:layout_height="66dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/gkul"
+                            android:layout_width="118dp"
+                            android:layout_height="38dp"
+                            android:text="Kullanıcı Adı"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/gkultext"
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text"
+                            android:textColorLink="#B741058D"
+                            tools:ignore="MissingConstraints,UnknownId" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/gsif"
+                            android:layout_width="120dp"
+                            android:layout_height="36dp"
+                            android:text="Şifre"
+                            android:textStyle="bold"
+                            tools:ignore="MissingConstraints" />
+
+                        <EditText
+                            android:id="@+id/gsifretext"
+                            android:layout_width="256dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/text"
+                            android:textColorLink="#B741058D"
+                            tools:ignore="MissingConstraints,UnknownId" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="75dp"
+                        android:orientation="horizontal">
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="213dp"
+                            android:layout_height="38dp"
+                            android:layout_weight="1"
+                            android:background="#CE9FFA"
+                            android:gravity="center_horizontal"
+                            android:text="GÜNCELLE"
+                            android:textColor="#000" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

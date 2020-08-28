@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".adminSiparis">
+
+
+    <LinearLayout
+    android:background="@color/colorPrimary"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/rlyt"
+    android:layout_alignParentStart="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_alignParentLeft="true" >
+
+    <Button
+        android:id="@+id/cksbtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="?attr/actionModeCloseDrawable">
+    </Button>
+
+    <TextView
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Siparişler"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listsViewsiparisler">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
