@@ -20,6 +20,8 @@
 
             <TextView
                 android:id="@+id/sdtylist"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="171dp"
                 android:textSize="40px"></TextView>
@@ -33,6 +35,7 @@
 
             <TextView
                 android:id="@+id/lblmasano"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
                 android:text="MASA NO"
@@ -40,6 +43,7 @@
 
             <TextView
                 android:id="@+id/lbltarih"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
                 android:text="TARİH"
@@ -47,6 +51,7 @@
 
             <TextView
                 android:id="@+id/lblsaat"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:text="SAAT"

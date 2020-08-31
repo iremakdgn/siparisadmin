@@ -53,6 +53,7 @@
                     <EditText
                         android:id="@+id/texttrhal1"
                         android:layout_width="125dp"
+                        android:gravity="center"
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:hint="İlk Tarihi Seç"
@@ -60,6 +61,7 @@
 
                     <EditText
                         android:id="@+id/texttrhal2"
+                        android:gravity="center"
                         android:layout_width="129dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
@@ -70,6 +72,7 @@
                     <Button
                         android:id="@+id/listelebtn"
                         android:layout_width="108dp"
+                        android:background="#ffc1c1"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="5dp"

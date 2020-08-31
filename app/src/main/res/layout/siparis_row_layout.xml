@@ -18,7 +18,10 @@
 
             <TextView
                 android:id="@+id/listmenu"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
                 android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:layout_height="match_parent"
                 android:text=""
                 android:textSize="40px"></TextView>
@@ -35,16 +38,19 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:layout_marginTop="7dp"
                     android:id="@+id/lbltarih"
                     android:layout_width="147dp"
+                    android:textStyle="bold"
                     android:layout_height="match_parent"
                     android:text="DENE"
                     android:textSize="40px"></TextView>
 
                 <ImageButton
+                    android:layout_marginTop="7dp"
                     android:id="@+id/btndlt"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
                     android:background="@drawable/delete">
 
                 </ImageButton>
@@ -61,12 +67,14 @@
             <TextView
                 android:id="@+id/lblsaat"
                 android:layout_width="match_parent"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:text="DENE"
                 android:textSize="40px"></TextView>
 
             <TextView
                 android:id="@+id/lblmasano"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="DENE"
@@ -74,6 +82,7 @@
 
             <TextView
                 android:id="@+id/lbltplmfiyat"
+                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="DENE"

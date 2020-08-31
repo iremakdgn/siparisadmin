@@ -26,7 +26,7 @@
         </Button>
 
         <TextView
-            android:layout_width="282dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Şifre Değiştir"
@@ -59,32 +59,31 @@
                 android:orientation="vertical">
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
                     <TextView
                         android:id="@+id/textView4"
-                        android:layout_width="345dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="41dp"
+                        android:layout_gravity="center"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="YÖNETİCİ"
                         android:textSize="40px"
                         android:textStyle="bold"
-                        tools:ignore="MissingConstraints"
-                        tools:layout_editor_absoluteX="134dp"
-                        tools:layout_editor_absoluteY="16dp" />
+                        />
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/geskikul"
-                            android:layout_width="265dp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
                             android:text="Kullanıcı Adı:"
                             android:textStyle="bold"
                             tools:ignore="MissingConstraints"
@@ -158,15 +157,15 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="75dp"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
                             android:id="@+id/button"
-                            android:layout_width="213dp"
-                            android:layout_height="38dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#CE9FFA"
-                            android:gravity="center_horizontal"
+                            android:gravity="center"
                             android:text="GÜNCELLE"
                             android:textColor="#000" />
                     </LinearLayout>
@@ -285,15 +284,15 @@
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="75dp"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
                             android:id="@+id/button2"
-                            android:layout_width="213dp"
-                            android:layout_height="38dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="#CE9FFA"
-                            android:gravity="center_horizontal"
+                            android:gravity="center"
                             android:text="GÜNCELLE"
                             android:textColor="#000" />
                     </LinearLayout>

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_marginTop="5px"
     android:gravity="center_vertical"
-    android:textAlignment="center">
+    >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -19,46 +19,51 @@
             android:textSize="20px"></TextView>
 
         <TextView
+
             android:id="@+id/lblmnad"
             android:layout_width="98dp"
-            android:layout_height="120px"
+            android:layout_height="130px"
+            android:textStyle="bold"
             android:text="DENE"
             android:textAlignment="center"
-            android:textSize="40px"></TextView>
+            android:textSize="40px"
+            android:gravity="center"></TextView>
 
         <TextView
             android:id="@+id/lblmnfiyat"
             android:layout_width="110dp"
-            android:layout_height="120px"
+            android:layout_height="130px"
+            android:textStyle="bold"
             android:text="DENE"
             android:textAlignment="center"
-            android:textSize="40px"></TextView>
+            android:textSize="40px"
+            android:gravity="center"></TextView>
 
         <TextView
             android:id="@+id/lblmntur"
             android:layout_width="131dp"
-            android:layout_height="120px"
+            android:layout_height="130px"
+            android:textStyle="bold"
             android:text="DENE"
             android:textAlignment="center"
-            android:textSize="40px"></TextView>
+            android:textSize="40px"
+            android:gravity="center"></TextView>
 
         <ImageButton
+            android:layout_gravity="center"
             android:id="@+id/btnsil"
-            android:layout_width="80px"
-            android:layout_height="80px"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:background="@drawable/delete"
             android:textSize="40px" />
 
         <ImageButton
+            android:layout_gravity="center"
             android:id="@+id/btngncl"
-            android:layout_width="80px"
-            android:layout_height="80px"
+            android:layout_marginLeft="5dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:background="@drawable/wrench"
             android:textSize="40px" />
-
-
-
     </LinearLayout>
-
-
 </LinearLayout>

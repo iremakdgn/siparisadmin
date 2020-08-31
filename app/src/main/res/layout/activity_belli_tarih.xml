@@ -54,6 +54,7 @@
 
                 <EditText
                     android:id="@+id/texttrhal"
+                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -62,9 +63,11 @@
 
                 <Button
                     android:id="@+id/listelebtn"
-                    android:layout_width="118dp"
+                    android:background="#ffc1c1"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20dp"
                     android:drawableLeft="@drawable/checkmark"
                     android:text="Listele"
                     android:textSize="40px"></Button>
