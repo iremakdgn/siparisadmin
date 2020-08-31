@@ -310,6 +310,7 @@ public class adminBildiri extends AppCompatActivity {
             cal.setTime(tarih);
             int yil = cal.get(Calendar.YEAR);
             int ay = cal.get(Calendar.MONTH);
+            ay++;
             int gun = cal.get(Calendar.DAY_OF_MONTH);
             Double top = 0.0;
             //SimpleDateFormat bicim = new SimpleDateFormat("yyyy-MM-dd");
@@ -329,7 +330,9 @@ public class adminBildiri extends AppCompatActivity {
             String trhh = bicim2.format(tarih);
             String son = "" + trhh + " tarihindeki toplam geliriniz " + top + " TL dir.";
             BildiriService bildiriService = new BildiriService();
-            bildiriService.PostBildirilerByBilMetin(son);
+            Bildiri bildiri = new Bildiri();
+            bildiri.setBilmetin(son);
+            bildiriService.PostBildiriler(bildiri);
 
             return null;
         }

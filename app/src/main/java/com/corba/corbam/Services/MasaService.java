@@ -68,7 +68,7 @@ public class MasaService {
         }
     }
 
-    public void PostMasalar(Masa masa) {//masa null geliyor
+    public void PostMasalar(Masa masa) {
         try {
             restInterface = APIClient.getClient().create(RestInterface.class);
             Call<Void> call = restInterface.postMasalar(masa);

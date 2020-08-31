@@ -50,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_insert_chart_black_24dp"
-            android:text="Belli Tarih ile Rapor"
+            android:text="Belirli Tarih ile Rapor"
             android:textSize="40px"></Button>
 
         <Button
@@ -66,7 +66,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/bell"
-            android:text="Bildirimler"
+            android:text="Günü anlık hesapla"
             android:textSize="40px"></Button>
 
         <Button

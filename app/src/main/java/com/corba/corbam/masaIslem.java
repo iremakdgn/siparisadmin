@@ -97,13 +97,12 @@ public class masaIslem extends AppCompatActivity {
             int aa = Integer.parseInt(masano);
 
             MasaService masaService = new MasaService();
-            Masa m = masaService.GetMasaByMasaNo(masano);//burada
+            Masa m = masaService.GetMasaByMasaNo(masano);
             if (m != null) {
                 z = "Lütfen Kayıtlı Olmayan bir masa numarası  giriniz.";
             } else {
                 if (aa > 0 && aa <= 20) {
-                    m = new Masa();//olmayan masayı eklemen lazım.  O yuzden olmayan masa null geliyor. Sende post etmeye o masayı gonderirsen null göndermiş olursun
-                    //ondan dolayı new ledik değerleri doldurduk. anladım aşkım şimdi gel belli tarihe bakacaz
+                    m = new Masa();
                     m.setKapasite(kapasite);
                     m.setDurum("pasif");
                     m.setMasano(masano);

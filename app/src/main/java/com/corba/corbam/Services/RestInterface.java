@@ -92,7 +92,7 @@ public interface RestInterface {
     Call<List<SiparisListesi>> getSiparisListesiBySpId(@Query("spid") int spid);
 
     @POST("Bildiriler")
-    Call<Bildiri> postBildirilerByMBilMetin(@Query("bilmetin") String bilmetin);
+    Call<Bildiri> postBildiriler(@Body Bildiri bildiri);
 
     @DELETE("Siparisler")
     Call<Siparis> deleteSiparislerById(@Query("id") int id);

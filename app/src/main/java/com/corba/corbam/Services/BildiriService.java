@@ -36,10 +36,10 @@ public class BildiriService {
         }
     }
 
-    public Bildiri PostBildirilerByBilMetin(String bilmetin) {
+    public Bildiri PostBildiriler(Bildiri bildiri) {
         try {
             restInterface = APIClient.getClient().create(RestInterface.class);
-            Call<Bildiri> call = restInterface.postBildirilerByMBilMetin(bilmetin);
+            Call<Bildiri> call = restInterface.postBildiriler(bildiri);
             Bildiri bildiriler = call.execute().body();
             return bildiriler;
         } catch (IOException e) {
